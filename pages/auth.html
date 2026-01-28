@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Auth — AI Learning</title>
+  <link rel="stylesheet" href="/styles/base.css">
+  <link rel="stylesheet" href="/styles/components.css">
+</head>
+<body data-page="auth">
+  <header class="site-header">
+    <a class="logo" href="/pages/index.html">AI Learning</a>
+    <nav>
+      <a href="/pages/courses.html">Courses</a>
+      <a href="/pages/profile.html">Profile</a>
+      <a href="/pages/auth.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="container auth-container">
+    <section class="auth-box" id="authBox">
+      <h1 id="authTitle">Login</h1>
+      <form id="authForm" novalidate>
+        <label for="email">Email</label>
+        <input id="email" type="email" required>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" required minlength="6">
+
+        <div class="form-actions">
+          <button class="btn" id="submitBtn">Login</button>
+          <button class="btn ghost" id="toggleRegister" type="button">Create account</button>
+        </div>
+      </form>
+      <div id="authMessage" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lesson — AI Learning</title>
+  <link rel="stylesheet" href="/styles/base.css">
+  <link rel="stylesheet" href="/styles/components.css">
+  <link rel="stylesheet" href="/styles/pages/lesson.css">
+</head>
+<body data-page="lesson">
+  <header class="site-header">
+    <a class="logo" href="/pages/index.html">AI Learning</a>
+    <nav>
+      <a href="/pages/courses.html">Courses</a>
+      <a href="/pages/profile.html">Profile</a>
+      <a href="/pages/auth.html">Login</a>
+    </nav>
+  </header>
+
+  <main class="container lesson-container">
+    <article id="lessonContent">
+      <div class="loading">Loading lesson...</div>
+    </article>
+
+    <aside class="lesson-side">
+      <button id="markComplete" class="btn">Mark as completed</button>
+      <div id="quizArea"></div>
+    </aside>
+  </main>
+
+  <button id="openChat" class="chat-toggle" aria-expanded="false">AI Assistant</button>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

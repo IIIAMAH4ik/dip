@@ -1,0 +1,6 @@
+[
+  {"id":"l1","courseId":"1","title":"ML Overview","summary":"What is ML and workflows","content":"<p>Machine Learning (ML) is...</p>"},
+  {"id":"l2","courseId":"1","title":"Supervised Learning","summary":"Labels and models","content":"<p>Supervised learning uses labeled data...</p>"},
+  {"id":"l3","courseId":"2","title":"HTML Basics","summary":"Structure of web pages","content":"<p>HTML structures content with elements like &lt;h1&gt; and &lt;p&gt;.</p>"},
+  {"id":"l4","courseId":"2","title":"CSS Basics","summary":"Styling with CSS","content":"<p>CSS adds styles for layout and color.</p>"}
+]

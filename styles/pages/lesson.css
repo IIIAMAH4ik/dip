@@ -1,0 +1,4 @@
+.lesson-container article{background:var(--card);padding:18px;border-radius:12px}
+.lesson-container h1{margin-top:0}
+.result{padding:12px;background:linear-gradient(180deg,rgba(37,99,235,0.06),transparent);border-radius:8px}
+.completed-badge{display:inline-block;background:linear-gradient(90deg,var(--accent),var(--accent-600));color:white;padding:6px 10px;border-radius:999px;font-size:0.85rem}

@@ -1,0 +1,35 @@
+/* Card grid */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 1px 3px rgba(2,6,23,0.06)}
+.card h3{margin:0 0 8px}
+.card p{margin:0;color:var(--muted);font-size:0.95rem}
+
+.controls{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+input[type="search"],input,select{padding:10px;border-radius:8px;border:1px solid rgba(15,23,42,0.06);min-width:0}
+
+.features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;list-style:none;padding:0}
+
+.lesson-container{display:flex;gap:16px;flex-direction:column}
+.lesson-side{margin-top:16px}
+@media(min-width:900px){.lesson-container{flex-direction:row}.lesson-side{width:320px}}
+
+.quiz-question{margin:12px 0}
+.quiz-options{display:flex;flex-direction:column;gap:8px}
+
+.chat-toggle{position:fixed;right:18px;bottom:18px;background:var(--accent);color:white;border-radius:50px;padding:10px 14px;border:0;cursor:pointer}
+
+/* Chat widget */
+.chat-widget{position:fixed;right:18px;bottom:70px;width:320px;max-width:calc(100vw - 24px);background:var(--card);border-radius:12px;box-shadow:0 6px 24px rgba(2,6,23,0.12);display:flex;flex-direction:column}
+.chat-header{padding:12px;border-bottom:1px solid rgba(15,23,42,0.04);display:flex;justify-content:space-between;align-items:center}
+.chat-messages{padding:12px;display:flex;flex-direction:column;gap:8px;max-height:300px;overflow:auto}
+.chat-input{display:flex;padding:8px;border-top:1px solid rgba(15,23,42,0.04)}
+.chat-input input{flex:1;padding:8px;border-radius:8px;border:1px solid rgba(15,23,42,0.06)}
+.muted{color:var(--muted)}
+
+.profile-list{display:grid;gap:8px}
+
+.auth-container{display:flex;justify-content:center}
+.auth-box{background:var(--card);padding:16px;border-radius:12px;max-width:420px}
+.form-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
+
+.empty-state{padding:24px;text-align:center;color:var(--muted)}

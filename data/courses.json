@@ -1,0 +1,5 @@
+[
+  {"id": "1", "title": "Intro to Machine Learning", "category":"AI", "description":"Fundamentals of ML and workflows."},
+  {"id": "2", "title": "Web Development Basics", "category":"Web", "description":"HTML, CSS and vanilla JS."},
+  {"id": "3", "title": "Data Visualization", "category":"Data", "description":"Visualizing data with charts and design."}
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "lessonId":"l1",
+    "title":"ML Overview Quiz",
+    "questions":[
+      {"q":"What does ML stand for?","options":["Machine Learning","Meta Learning","Model Lines"],"answer":"Machine Learning"},
+      {"q":"Supervised learning uses:","options":["Labeled data","No labels","Reinforcement signals"],"answer":"Labeled data"},
+      {"q":"A common ML task is:","options":["Classification","Decoration","Compiling"],"answer":"Classification"}
+    ]
+  },
+  {
+    "lessonId":"l3",
+    "title":"HTML Basics Quiz",
+    "questions":[
+      {"q":"HTML is used for:","options":["Structure","Styling","Scripting"],"answer":"Structure"},
+      {"q":"A paragraph tag is:","options":["<p>","<div>","<span>"],"answer":"<p>"}
+    ]
+  }
+]
